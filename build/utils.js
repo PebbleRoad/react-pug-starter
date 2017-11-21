@@ -88,9 +88,9 @@ exports.pageFile = function (dev = true) {
       // you can customize output by editing /index.html
       // see https://github.com/ampedandwired/html-webpack-plugin
       options.minify = {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
+        // removeComments: true,
+        // collapseWhitespace: true,
+        // removeAttributeQuotes: true
       }
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
       options.chunksSortMode = 'dependency'

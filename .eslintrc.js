@@ -10,7 +10,7 @@ module.exports = {
     browser: true,
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  extends: 'standard',
+  // extends: 'standard',
   // required to lint *.vue files
   plugins: [
     'html'
@@ -19,6 +19,10 @@ module.exports = {
   'rules': {
     // allow paren-less arrow functions
     'arrow-parens': 0,
+    'no-unused-vars': 0,
+    'no-multiple-empty-lines': 0,
+    'func-call-spacing': 0,
+    'key-spacing': 0,
     // allow async-await
     'generator-star-spacing': 0,
     // allow debugger during development
